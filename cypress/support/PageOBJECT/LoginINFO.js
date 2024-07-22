@@ -8,7 +8,7 @@ class LoginINFO{
         
         cy.xpath('//a[@title="My Account"]').click();
         cy.xpath('//a[@href="https://tutorialsninja.com/demo/index.php?route=account/login"]').click();
-        cy.xpath('//input[@id="input-email"]').type('Hirakgoswaaaaaa89101@gmail.com');
+        cy.xpath('//input[@id="input-email"]').type('Hirakgoswaaaaaaa89101@gmail.com');
         cy.xpath('//input[@placeholder="Password"]').type('1234');
         cy.xpath('//input[@type="submit"]').click();
     }
